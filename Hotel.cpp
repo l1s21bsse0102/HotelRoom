@@ -14,7 +14,9 @@ class Hotel{
 			cout << "Hotel Name is printed" << endl;
 		}
 		
-		void PrintHotelAddress();
+		void PrintHotelAddress(){
+			cout << "Hotel Address is printed" << endl;
+		}
 };
 
 int main (){
