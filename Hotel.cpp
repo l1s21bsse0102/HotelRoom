@@ -10,7 +10,10 @@ class Hotel{
 	public:
 		Hotel();
 		
-		void PrintHotelName();
+		void PrintHotelName(){
+			cout << "Hotel Name is printed" << endl;
+		}
+		
 		void PrintHotelAddress();
 };
 
